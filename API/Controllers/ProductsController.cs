@@ -13,7 +13,7 @@ namespace API.Controllers
 
         [HttpGet("{id}")]
         public string GetProduct(int id){
-            return "this will be a product";
+            return "this will be a product!";
         }
     }
 }
